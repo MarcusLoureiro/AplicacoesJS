@@ -19,8 +19,6 @@
                 pegaPekemons(quantidade.value);
             });  
             
-
-
             function pegaPekemons(quantidade){
                     fetch('https://pokeapi.co/api/v2/pokemon?limit='+quantidade)
                     .then(response => response.json())
